@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  mo629-influxdb-interface:
+    build: .
+    container_name: mo629-influxdb-interface
+    tty: true
+    volumes:
+      - .:/app
