@@ -2,9 +2,7 @@ import time
 import random
 
 from influxdb_client_3 import Point
-from core.core import client
-
-database="temp_data"
+from core.core import client, database
 
 data_example = {
     "point1": {
