@@ -2,3 +2,4 @@ pandas
 matplotlib
 influxdb3-python
 folium
+flask

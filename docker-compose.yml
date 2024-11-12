@@ -5,5 +5,7 @@ services:
     build: .
     container_name: mo629-influxdb-interface
     tty: true
+    ports:
+      - '5000:5000'
     volumes:
       - .:/app
